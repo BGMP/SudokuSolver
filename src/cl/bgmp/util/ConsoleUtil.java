@@ -8,11 +8,11 @@ import java.util.regex.PatternSyntaxException;
 public class ConsoleUtil {
 
     public static void printSudokuInputInstructions() {
-        System.out.println("Ingrese los espacios vacíos/números del Sudoku 9x9:");
-        System.out.println("- Para representar un espacio vacío coloque un 0.");
-        System.out.println("- Para separar cada número coloque un espacio.");
-        System.out.println("- Deberá proveer 9 números por fila.");
-        System.out.println("- Para terminar una línea presione Enter.");
+        System.out.println("Input the empty cells/numbers of your 9x9 Sudoku:");
+        System.out.println("- To represent an empty cell use a 0.");
+        System.out.println("- For separating cells use a space.");
+        System.out.println("- You must provide 9 numbers for each row.");
+        System.out.println("- To input each row and go to the next simply press Enter.");
         System.out.println();
     }
 

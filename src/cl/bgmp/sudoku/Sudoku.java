@@ -14,6 +14,23 @@ public class Sudoku {
         return solved;
     }
 
+    public static Sudoku fromArray(int[][] array) {
+        if (array.length != 9 || array[0].length != 9) return null;
+
+        Cell[][] grid = new Cell[9][9];
+        for (int i = 0; i < 9; i++) {
+            Cell[] row = new Cell[9];
+
+            for (int j = 0; j < 9; j++) {
+                row[j] = new Cell(i, j, array[i][j]);
+            }
+
+            grid[i] = row;
+        }
+
+        return new Sudoku(grid);
+    }
+
     public static Sudoku fromCommandLine() {
         return new Sudoku(ConsoleUtil.readSudokuGrid());
     }

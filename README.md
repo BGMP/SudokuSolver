@@ -9,4 +9,4 @@ There are two main packages:
     * [Cell](https://github.com/BGMP/SudokuSolver/blob/master/src/cl/bgmp/sudoku/Cell.java): Represents a cell in the Sudoku grid
     * [Sudoku](https://github.com/BGMP/SudokuSolver/blob/master/src/cl/bgmp/sudoku/Sudoku.java): Represents the entire Sudoku game.
   * [util](https://github.com/BGMP/SudokuSolver/tree/master/src/cl/bgmp/util): Utils package.
-    * [ConsoleUtil](https://github.com/BGMP/SudokuSolver/blob/master/src/cl/bgmp/util/ConsoleUtil.java): Provides methods for reading from Console
+    * [ConsoleUtil](https://github.com/BGMP/SudokuSolver/blob/master/src/cl/bgmp/util/ConsoleUtil.java): Provides methods for reading from Console.
