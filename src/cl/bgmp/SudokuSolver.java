@@ -7,6 +7,7 @@ public class SudokuSolver {
     public static void main(String[] args) {
         // Sudoku sudoku = Sudoku.fromCommandLine();
         Sudoku sudoku = Sudoku.fromArray(Boards.SAMPLE_1);
+        if (sudoku == null) return;
 
         System.out.println();
         System.out.println("Sudoku:");
