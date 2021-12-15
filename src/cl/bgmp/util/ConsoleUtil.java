@@ -35,12 +35,12 @@ public class ConsoleUtil {
         try {
             numberStrings = row.split(" ");
         } catch (PatternSyntaxException e) {
-            System.out.println("La fila ingresada no es válida! Siga las instrucciones.");
+            System.out.println("The entered row is invalid! Follow the instructions.");
             readSudokuRow(rowNumber);
         }
 
         if (numberStrings.length != 9) {
-            System.out.println("La fila ingresada contiene una cantidad de números por fila inválida. Debe tener 9.");
+            System.out.println("The entered row contains an invalid amount of numbers. It must have 9.");
             readSudokuRow(rowNumber);
         }
 
@@ -49,7 +49,7 @@ public class ConsoleUtil {
         for (String numberString : numberStrings) {
             int number = ConsoleUtil.parseSudokuNumber(numberString);
             if (number == -1) {
-                System.out.println("Se encontró un valor inválido: " + numberString + ". Ingrese la fila nuevamente.");
+                System.out.println("Invalid value detected: " + numberString + ". Input the row again.");
                 readSudokuRow(rowNumber);
             }
 
