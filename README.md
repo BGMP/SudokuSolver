@@ -1,7 +1,7 @@
 SudokuSolver
 ===
 
-A 9x9 Sudokus solver made in Java, implementing fundamental backtracking.
+A 9x9 Sudoku solver made in Java, implementing fundamental backtracking.
 
 ## Packages & Classes
 There are two main packages:
